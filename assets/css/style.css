@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-style: 'Open Sans', sans-serif;
+ 
 }
 
 a {
@@ -14,18 +15,9 @@ a {
     text-align: center;
 }
 
-/* header image {
-    width: 50px;
-    height: 50px;
-} */
-
-/* .logo {
-    
-} */
-
 header {
     background-color: white;
-    padding: 5px;
+    padding: 5px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,12 +43,17 @@ footer {
     background-color: rgb(90, 90, 90);
 }
 
-.paragraph {
-    color: white;
-}
 .contact {
     color: white;
 }
+
+/* Responsive layout */
+/* @media (min-width: 1200px) {
+    header {
+        padding: 5px 25%;
+    }
+} */
+
 
 
 /* .contact-me {
