@@ -80,6 +80,7 @@ a {
     margin: 0;
 }
 
+/* Images configurations */
 .big-img {
     width: 720px;
     height: 620px; /* Set the height of big-img to be close to twice the height of small-img */
@@ -101,6 +102,7 @@ a {
     /* margin-top: 10px; */
 }
 
+/* Text configurations */
 .text-center {
     text-align: center;
 }
@@ -117,12 +119,15 @@ h3 {
 }
 
 /* Footer styles */
-footer div a:hover {
+
+/* Show underline when hover */
+footer div a:hover {  
     text-decoration: underline;
     text-decoration-thickness: 2px;
     margin-right: 5px;
 }
 
+/* Footer color and placement */
 footer {
     /* display: flex; */
     /* justify-content: space-between;
@@ -147,8 +152,17 @@ section, footer, .center {
     margin-bottom: 5px;
 }
 /* Responsive layout */
-/* @media (min-width: 1200px) {
-    header {
-        padding: 5px 25%;
+@media (min-width: 768px) {
+    img {
+        max-width: 100%;
+        height: auto;
     }
-} */
+}
+
+@media (max-width: 767px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
